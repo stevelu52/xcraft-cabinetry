@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Xcraft Kitchen Cabinetry</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="pre-header">
+        <div class="container">
+            <div class="pre-header-content">
+                <div class="pre-header-left">
+                    <span><i class="fas fa-phone"></i> 215-410-6403 / 917-326-9719</span>
+                    <span class="divider">|</span>
+                    <span><i class="fas fa-clock"></i> Mon-Sat: 8AM-6PM</span>
+                </div>
+                <div class="pre-header-right">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.xiaohongshu.com" target="_blank"><i class="fab fa-xing"></i></a>
+                    <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-text">
+                            <span class="logo-main">Xcraft</span>
+                            <span class="logo-sub">Kitchen & Bath</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item dropdown">
+                        <a href="products.html" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="products.html" class="filter-link" data-filter="all">All Products</a>
+                            <a href="products.html" class="filter-link" data-filter="kitchen">Kitchen Cabinets</a>
+                            <a href="products.html" class="filter-link" data-filter="flatpanel">Euro Style</a>
+                            <a href="products.html" class="filter-link" data-filter="bathroom">Bathroom</a>
+                            <a href="products.html" class="filter-link" data-filter="closets">Closets</a>
+                            <a href="products.html" class="filter-link" data-filter="countertops">Countertops</a>
+                            <a href="products.html" class="filter-link" data-filter="hardware">Hardware</a>
+                            <a href="products.html" class="filter-link" data-filter="flooring">Flooring & Tiles</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="specification.html" class="nav-link">Specification</a></div>
+                    <div class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link">Resources <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="about.html">About Us</a>
+                            <a href="faq.html">FAQs</a>
+                            <a href="blog.html">Blog</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></div>
+                </nav>
+                <a href="quote.html" class="header-cta">Free Quote</a>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="section-tag">Get In Touch</div>
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" style="padding-top: 80px;">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Call Us</h3>
+                    <p>215-410-6403</p>
+                    <span>Mon-Sat, 8AM-6PM</span>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email Us</h3>
+                    <p>xcraftcabinetry@gmail.com</p>
+                    <span>We reply within 24 hours</span>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Visit Showroom</h3>
+                    <p>800 S White Horse Pike</p>
+                    <span>Somerdale, NJ 08083</span>
+                </div>
+            </div>
+
+            <div class="contact-main">
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" action="https://formspree.io/f/xcraftcabinetry@gmail.com" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Name <span class="required">*</span></label>
+                                <input type="text" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone <span class="required">*</span></label>
+                                <input type="tel" name="phone" required placeholder="(555) 123-4567">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="you@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <select name="subject">
+                                <option value="">Select a topic</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="quote">Quote Request</option>
+                                <option value="support">Customer Support</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message <span class="required">*</span></label>
+                            <textarea name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div>
+                    <h2 style="font-size: 24px; margin-bottom: 30px; color: var(--text-dark);">Showroom Location</h2>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.123456789!2d-75.1234567!3d39.9876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6d123456789ab%3A0xabcdef1234567890!2s800%20S%20White%20Horse%20Pike%2C%20Somerdale%2C%20NJ%2008083!5e0!3m2!1sen!2sus!4v1234567890"
+                            width="100%" 
+                            height="300" 
+                            style="border:0; border-radius: 15px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="transport-info">
+                        <h4>Directions</h4>
+                        <ul>
+                            <li><i class="fas fa-car"></i> Located on White Horse Pike</li>
+                            <li><i class="fas fa-parking"></i> Free parking available</li>
+                            <li><i class="fas fa-store"></i> Showroom open to visitors</li>
+                        </ul>
+                    </div>
+                    <div class="social-section" style="margin-top: 40px;">
+                        <h2 style="font-size: 24px; margin-bottom: 20px; color: var(--text-dark);">Follow Us</h2>
+                        <div class="social-links" style="display: flex; gap: 15px;">
+                            <a href="https://instagram.com" target="_blank" style="width: 50px; height: 50px; background: var(--gold); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fab fa-instagram"></i></a>
+                            <a href="https://facebook.com" target="_blank" style="width: 50px; height: 50px; background: var(--gold); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.xiaohongshu.com" target="_blank" style="width: 50px; height: 50px; background: var(--gold); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fab fa-xing"></i></a>
+                            <a href="https://tiktok.com" target="_blank" style="width: 50px; height: 50px; background: var(--gold); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand">
+                    <div class="footer-logo">
+                        <div class="logo-text">
+                            <span class="logo-main">Xcraft</span>
+                            <span class="logo-sub">Kitchen & Bath</span>
+                        </div>
+                    </div>
+                    <p>Premium custom cabinetry crafted with excellence. Serving homeowners across the nation with quality and style since 2005.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.xiaohongshu.com" target="_blank"><i class="fab fa-xing"></i></a>
+                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Kitchen Cabinets</a></li>
+                        <li><a href="products.html">Bathroom Vanities</a></li>
+                        <li><a href="products.html">Closets</a></li>
+                        <li><a href="products.html">Countertops</a></li>
+                        <li><a href="products.html">Hardware</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> 215-410-6403 / 917-326-9719</li>
+                        <li><i class="fas fa-envelope"></i> xcraftcabinetry@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 8AM-6PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 800 S White Horse Pike<br>Somerdale, NJ 08083</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Xcraft Kitchen Cabinetry. All Rights Reserved | Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
