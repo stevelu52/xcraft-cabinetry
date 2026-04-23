@@ -130,18 +130,9 @@ img {
 }
 
 .logo > a > .logo-img {
-    height: 32px;
-    width: auto;
-    filter: brightness(1.1);
 }
 
-.footer-logo .logo-img {
-    background: #1a1a1a;
-    height: 32px;
-    width: auto;
-}
-
-.logo-img {
+.logo > a > .logo-img {
 }
 
 .logo-icon {
@@ -860,9 +851,6 @@ img {
 }
 
 .footer-logo .logo-img {
-    background: #1a1a1a;
-    height: 40px;
-    width: auto;
 }
 
 .footer-logo .logo-icon {
