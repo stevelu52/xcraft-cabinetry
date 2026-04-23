@@ -844,9 +844,12 @@ img {
 
 .footer-logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .footer-logo .logo-img {
