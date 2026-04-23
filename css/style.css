@@ -130,10 +130,15 @@ img {
 }
 
 .logo > a > .logo-img {
-    height: 50px;
+    height: 60px;
     width: auto;
     filter: brightness(1.1);
-    background: #fff;
+}
+
+.footer-logo .logo-img {
+    background: #1a1a1a;
+    height: 50px;
+    width: auto;
 }
 
 .logo-img {
