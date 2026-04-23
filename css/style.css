@@ -133,6 +133,7 @@ img {
     height: 50px;
     width: auto;
     filter: brightness(1.1);
+    background: #fff;
 }
 
 .logo-img {
