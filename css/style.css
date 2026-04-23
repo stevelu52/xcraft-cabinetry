@@ -158,14 +158,14 @@ img {
 
 .logo-main {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     color: var(--gold);
     letter-spacing: 1px;
 }
 
 .logo-sub {
-    font-size: 22px;
+    font-size: 26px;
     color: var(--gold);
     letter-spacing: 1px;
     font-weight: 700;
@@ -863,12 +863,12 @@ img {
 
 .footer-logo .logo-main {
     color: var(--gold);
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .footer-logo .logo-sub {
     color: var(--gold);
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .footer-col p {
