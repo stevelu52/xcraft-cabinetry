@@ -132,6 +132,9 @@ img {
 .logo-img {
     height: 50px;
     width: auto;
+    border-radius: 50%;
+    background: #000;
+    padding: 4px;
 }
 
 .logo-icon {
