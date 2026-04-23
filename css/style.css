@@ -129,10 +129,14 @@ img {
     gap: 12px;
 }
 
-.logo-img {
+.logo > a > .logo-img {
     height: 50px;
     width: auto;
     filter: brightness(1.1);
+    background: #fff;
+}
+
+.logo-img {
 }
 
 .logo-icon {
