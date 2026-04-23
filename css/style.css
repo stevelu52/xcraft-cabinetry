@@ -129,6 +129,11 @@ img {
     gap: 12px;
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
 .logo-icon {
     width: 48px;
     height: 48px;
