@@ -132,6 +132,7 @@ img {
 .logo-img {
     height: 50px;
     width: auto;
+    filter: brightness(1.3);
 }
 
 .logo-icon {
