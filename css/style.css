@@ -856,6 +856,8 @@ img {
 
 .footer-logo .logo-img {
     background: #000;
+    height: 40px;
+    width: auto;
 }
 
 .footer-logo .logo-icon {
