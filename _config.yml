@@ -1,0 +1,4 @@
+markdown: false
+exclude:
+  - hts-cache
+  - do*
